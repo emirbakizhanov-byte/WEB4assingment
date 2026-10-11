@@ -1,0 +1,51 @@
+body {
+  background: #f4f7fb;
+  color: #172033;
+}
+.hero {
+  background: linear-gradient(125deg, #e7efff 0%, #f7faff 60%, #e8fbf6 100%);
+  border-bottom: 1px solid #dce5f2;
+}
+.eyebrow {
+  color: #4e65a5;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+.section-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  box-shadow: 0 8px 24px rgba(26, 43, 75, .045);
+}
+.section-card h2 {
+  font-size: 1.45rem;
+  font-weight: 750;
+  letter-spacing: -.025em;
+}
+.task-label {
+  color: #5267a8;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  margin-bottom: .5rem;
+}
+.form-control, .form-select {
+  border-color: #d5dce8;
+  padding: .68rem .8rem;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #8da5ee;
+  box-shadow: 0 0 0 .22rem rgba(92, 119, 220, .14);
+}
+.btn-primary {
+  background: #425dcc;
+  border-color: #425dcc;
+}
+.btn-primary:hover {
+  background: #334ab0;
+  border-color: #334ab0;
+}
+fieldset { min-width: 0; }
+footer { letter-spacing: .02em; }
